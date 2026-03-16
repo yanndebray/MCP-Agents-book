@@ -1,0 +1,15 @@
+{
+	"servers": {
+		"spreadsheet-mcp-server": {
+			"type": "stdio",
+			"command": "uvx",
+			"cwd": "C:\\Users\\ydebray\\Downloads\\magic-spread",
+			"args": [
+				"--with-requirements=requirements.txt",
+				"python",
+				"main.py"
+			]
+		}
+	},
+	"inputs": []
+}
